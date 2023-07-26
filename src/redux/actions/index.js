@@ -2,7 +2,7 @@ import axios from 'axios';
 
 import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO, TOGGLE_TAB } from './type';
 
-const API_URL = 'https://todomernbackend-avm2.onrender.com';
+const API_URL = 'https://todomernbackendnew.onrender.com';
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
